@@ -1,0 +1,14 @@
+{
+	"name": "mneuhaus/expose",
+	"description": "Helps you to easily render lists, forms, etc for structured objects like models, documents, etc",
+	"license": ["GPL-3.0+"],
+	"require-dev": {
+		"phpunit/phpunit": "*",
+		"mikey179/vfsStream": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Mneuhaus\\Expose\\": "src/"
+		}
+	}
+}
